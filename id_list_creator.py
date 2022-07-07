@@ -86,7 +86,7 @@ for p in Path('.').glob('ID_SEARCH/*.txt'):
             getID(sm_sub_ite)
         elif (txt.find("InventoryRandomPreset> data") != -1):
             getID(dropTable)
-        elif (txt.find("float maxHealth = ") != -1 and txt.find("float speedModifier = ") != -1 and txt.find("int aggressiveness = ") != -1):
+        elif (txt.find("float maxHealth = ") != -1 and txt.find("float maxStamina = ") != -1):
             getID(char_stats)
         elif (txt.find("float radius = ") != -1):
             getID(radius)
