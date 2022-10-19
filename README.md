@@ -9,4 +9,5 @@ I have also added a stat compiler for items where You can either compile your ow
 
 I recommend that in the xlsx file you freeze the top row by going into the view tab, then pressing Freeze Panes and choosing top row and that you also press ctrl+shift+L to allow the option for sorting
 
-
+Is this the fastest solution?
+- Not even close. It is quite slow but works for what I want it to do.
